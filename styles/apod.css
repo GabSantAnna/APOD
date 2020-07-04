@@ -1,0 +1,63 @@
+body {
+ background-image: url('https://wallpaperset.com/w/full/d/1/f/175999.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#date {
+
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+img {
+    width: 85%;
+}
+
+#text {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+    
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        font-size: 31px;
+    }
+
+    #date {
+
+        font-size: 15px;
+
+    }
+    
+    #text {
+        font-size: 10px
+    }
+
+    #copyright {
+        font-size: 8px;
+
+    }
+  }
